@@ -8,7 +8,7 @@ Point Pattern Analysis is a topic under spatial analysis that can support explan
 The following workshop follows the Intro to GIS and Spatial Analysis text, specifically referring to chapter 11, which can be found here: https://mgimond.github.io/Spatial/chp11_0.html 
 
 ## Necessary Tools and Programs to be used:
-The following workshop will be examined in R-studio and the dataset to be used is the "spatstat" package available in R. An R file is included as well to provide access to the entire code. To prepare for this workshop, please have R readily downloaded and the "spatstat" packaged installed so that it can be easily loaded in class. 
+This workshop will be conducted in R-studio and the dataset to be used is the "spatstat" package available in R. An R file is included as well to provide access to the entire code. To prepare for this workshop, please have R readily downloaded and the "spatstat" packaged installed so that it can be easily loaded in class. 
 
 ```Ruby
 install.packages("spatstat")
