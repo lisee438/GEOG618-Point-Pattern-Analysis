@@ -134,7 +134,7 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’
 
 The value under Pr is a p-value, which is greater than 0.05 therefore it is statistically significant to say that the base model for this point pattern data favours the Null hypothesis. That is, the point pattern distribution is Inhomogeneous Poisson Distribution. 
 
-To elaborate, an inhomogeneous Poisson process is a Poisson point process with a Poisson parameter set as some location-dependent function in the underlying space on which the Poisson process is defined. For the Alternate hypothesis, this was our presumption, we had considered the intensity as a function of the point location. And this can be easily understood by the Kernel Density Estimation, which accounts for the probability density distribution of the points in a given space.
+To elaborate, an inhomogeneous Poisson process is a Poisson point process with a Poisson parameter set as some location-dependent function in the underlying space on which the Poisson process is defined. For the Null hypothesis, this was our presumption, we had considered the intensity as a function of the point location. And this can be easily understood by the Kernel Density Estimation, which accounts for the probability density distribution of the points in a given space.
 
 ### 3.6 Kernel Density Estimation
 After completing a p-value test to confirm our suspicions, we can compute a final test to visually validate our assumptions. This can be done by producing a Kernel Density Estimation (KDE). The KDE considers the local intensity for our dataset. The following code was used to run the KDE on our dataset and also provides us with an output plot. 
